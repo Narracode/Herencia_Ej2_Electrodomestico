@@ -5,7 +5,6 @@
 package Servicio;
 
 import Entidad.*;
-import java.util.Scanner;
 /**
  *
  * @author zero
