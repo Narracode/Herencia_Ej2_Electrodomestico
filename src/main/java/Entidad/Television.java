@@ -9,21 +9,21 @@ package Entidad;
  * @author zero
  */
 public class Television extends Electrodomestico{
-    private int resolucion;
+    private int tamano;
     private boolean tdt;
 
-    public Television(int resolucion, boolean tdt, double precio, String color, char consumoEnergetico, double peso) {
+    public Television(int tamano, boolean tdt, double precio, String color, char consumoEnergetico, double peso) {
         super(precio, color, consumoEnergetico, peso);
-        this.resolucion = resolucion;
+        this.tamano = tamano;
         this.tdt = tdt;
     }
 
-    public int getResolucion() {
-        return resolucion;
+    public int getTamano() {
+        return tamano;
     }
 
-    public void setResolucion(int resolucion) {
-        this.resolucion = resolucion;
+    public void setTamano(int tamano) {
+        this.tamano = tamano;
     }
 
     public boolean isTdt() {
